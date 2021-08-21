@@ -63,12 +63,12 @@ inq
 function generateReadme(ans) {
   let readmeFile;
   readmeFile = `# ${ans.title} ![license badge](${getbage(ans.license)})\n\n`;
-  readmeFile += `## Table of Contents\n-[### Discreption](#discreption)\n-[###Installation](#installation)\n-[###Usage](#usage)\n-[###Contribution Guidlines](#contribution-guidlines)\n-[###Test instructions](#test-instructions)\n-[###License](#license)\n-[###Questions](#questions)\n`;
+  readmeFile += `## Table of Contents\n\n-[Discreption](#discreption)\n\n-[Installation](#installation)\n\n-[Usage](#usage)\n\n-[Contribution Guidlines](#contribution-guidlines)\n\n-[Test instructions](#test-instructions)\n\n-[License](#license)\n\n-[Questions](#questions)\n\n`;
   readmeFile += `## Discreption\n${ans.desc}\n`;
   readmeFile += `## Instalation\n${ans.install}\n`;
   readmeFile += `## Usage\n${ans.usage}\n`;
   readmeFile += `## Contribution Guidlines\n${ans.contribution}\n`;
-  readmeFile += `## Test Instructions\n${ans.tests}\n`;
+  readmeFile += `## Test Instructions\n${ans.test}\n`;
   readmeFile += `## License\n This project is licensed under the terms of the ${ans.license}.\n`;
   readmeFile += `## Questions\n My github: [${ans.gitUser}](https://github.com/${ans.gitUser})\n My email: ${ans.email}\n`;
   return readmeFile;
