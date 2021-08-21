@@ -1,4 +1,4 @@
-# readmeGenHW
+# readmeGenHW ![license badge](https://img.shields.io/github/license/HavoxPrime/readmeGenHW?style=for-the-badge)
 
 ## Description
 
