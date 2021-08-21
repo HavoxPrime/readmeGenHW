@@ -3,6 +3,7 @@
 ## Description
 
 This is a README generator that makes profesional readme files.
+
 ![Example README](https://raw.githubusercontent.com/HavoxPrime/readmeGenHW/main/imgs/example-readme.PNG)
 
 -When index.js is run the user is prompted for information like Discription and license
